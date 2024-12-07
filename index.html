@@ -5,17 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laundry Segar & Bersih</title>
     <style>
-       :root {
-
-        --primary-color: #4CAFDF; 
-        --secondary-color: #355C7D; 
-        --accent-color: #FF6F61; 
-        --text-color: #222222; 
-        --light-bg: #FAFAFA; 
-        --white: #FFFFFF;
-    }
-
-
+        :root {
+            --primary-color: #4CAFDF; 
+            --secondary-color: #355C7D; 
+            --accent-color: #FF6F61; 
+            --text-color: #222222; 
+            --light-bg: #FAFAFA; 
+            --white: #FFFFFF;
+}
 
         * {
             margin: 0;
@@ -37,7 +34,7 @@
         }
 
 
-        
+        /* Hero Section */
         #hero {
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: var(--white);
@@ -66,7 +63,7 @@
             transform: scale(1.05);
         }
 
-       
+        /* Services Section */
         #layanan {
             padding: 80px 0;
             background-color: var(--light-bg);
@@ -127,7 +124,6 @@
         }
 
         .price-header {
-            background-color: #F0F8FF;
             text-align: center;
             margin-bottom: 40px;
             font-size: 1.2em;
@@ -136,14 +132,11 @@
 
         .price-grid,
         .items-grid {
-            background-color: #FFEFEB;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             max-width: 1000px;
             margin: 0 auto 40px;
-        }
-
         }
          .price-grid::after,
         .items-grid::after {
@@ -170,6 +163,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
+
         .items-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr); 
@@ -186,7 +180,7 @@
         }
 
 
-       
+        /* How to Order Section */
         #cara-pesan {
             padding: 80px 0;
             background-color: var(--light-bg);
@@ -206,7 +200,7 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-       
+        /* Contact Section */
         #kontak {
             background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
             padding: 80px 0;
